@@ -76,8 +76,8 @@ CONFIG = {
     "state_json":         "convert_bot_state.json",
 
     # ----- Binance API -----
-    "binance_api_key":     os.environ.get("BINANCE_API_KEY", "YL5iRtOHm477nqpxbCirayjB314kOBirMDYctt15DGENiRvNcc06KwwmsaU4Qlkg"),
-    "binance_api_secret":  os.environ.get("BINANCE_API_SECRET", "sZ2AZd3LbC8pKc5d1kktsdta47AKC6hCKajYnEpw6IKn48GB49LTIMq3FFcdu2ZZ"),
+    "binance_api_key":     os.environ.get("BINANCE_API_KEY", ""),
+    "binance_api_secret":  os.environ.get("BINANCE_API_SECRET", ""),
     "binance_base":        "https://api.binance.com",
     "binance_base":        "https://api.binance.com",
 
@@ -100,14 +100,14 @@ CONFIG = {
     "convert_quote_valid_seconds": 30,       # validTime
 
     # ----- Notifications -----
-    "notify_email":       "kwgatheru@gmail.com",
+    "notify_email":       "",
     "smtp_host":          os.environ.get("SMTP_HOST", "smtp.gmail.com"),
     "smtp_port":          int(os.environ.get("SMTP_PORT", "587")),
-    "smtp_user":          os.environ.get("SMTP_USER", "kevwach@gmail.com"),
-    "smtp_pass":          os.environ.get("SMTP_PASS", "vaum ojre swya idtn"),
+    "smtp_user":          os.environ.get("SMTP_USER", ""),
+    "smtp_pass":          os.environ.get("SMTP_PASS", ""),
 
-    "telegram_bot_token": os.environ.get("TELEGRAM_BOT_TOKEN", "8856393590:AAFXJnrRNuQJq5SbXRriG6MtfWuzFrQ0x0I"),
-    "telegram_chat_id":   os.environ.get("TELEGRAM_CHAT_ID", "142862284"),
+    "telegram_bot_token": os.environ.get("TELEGRAM_BOT_TOKEN", ""),
+    "telegram_chat_id":   os.environ.get("TELEGRAM_CHAT_ID", ""),
 
     # ----- Display -----
     "display_tz_offset_hours": 3,
